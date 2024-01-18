@@ -5,11 +5,13 @@ defmodule GymDiary.MixProject do
     [
       app: :gym_diary,
       version: "0.1.0",
-      elixir: "~> 1.15",
+      elixir: "~> 1.13.4",
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
   end
+
+  # not 1.15
 
   # Run "mix help compile.app" to learn about applications.
   def application do
